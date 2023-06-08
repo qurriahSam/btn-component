@@ -1,4 +1,4 @@
-<button class="btn btn-outline-primary">
+<button class="btn" [class]="buttonTypeStyle">
   <i class="bi-alarm" [hidden]="false"></i>
-  start
+  {{ buttonType.length < 1 ? "default" : buttonType }}
 </button>
