@@ -1,9 +1,11 @@
 <div class="row">
-  <div>
+  <div class="col-3">
     <app-nav-section></app-nav-section>
   </div>
 
-  <div class="container">
-    <app-button></app-button>
+  <div class="col container d-flex">
+    <app-button [buttonType]="outline"></app-button>
+    <app-button [buttonType]="primary"></app-button>
+    <app-button [buttonType]="default"></app-button>
   </div>
 </div>
