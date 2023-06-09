@@ -3,9 +3,36 @@
     <app-nav-section></app-nav-section>
   </div>
 
-  <div class="col container d-flex">
-    <app-button [buttonType]="outline"></app-button>
-    <app-button [buttonType]="primary"></app-button>
-    <app-button [buttonType]="default"></app-button>
+  <div class="col container p-5">
+    <div class="container p-2">
+      <h6 class="mb-4">Button Types</h6>
+      <div class="container">
+        <app-button [buttonType]="button[0]"></app-button>
+        <app-button [buttonType]="button[1]"></app-button>
+        <app-button [buttonType]="button[2]"></app-button>
+      </div>
+    </div>
+    <div class="container p-2">
+      <h6 class="mb-4">Button shadow disabled</h6>
+      <div class="container">
+        <app-button [buttonType]="button[0]" [shadow]="false"></app-button>
+        <app-button [buttonType]="button[1]" [shadow]="false"></app-button>
+        <app-button [buttonType]="button[2]" [shadow]="false"></app-button>
+      </div>
+    </div>
+    <div class="container p-2">
+      <h6 class="mb-4">Button disabled</h6>
+      <div class="container">
+        <app-button [buttonType]="button[0]" [disable]="true"></app-button>
+        <app-button [buttonType]="button[1]" [disable]="true"></app-button>
+        <app-button [buttonType]="button[2]" [disable]="true"></app-button>
+      </div>
+    </div>
+    <div class="container p-2">
+      <h6 class="mb-4">Button shadow disabled</h6>
+      <span *ngFor="let icon of icons">
+        <app-button [buttonType]="button[1]" [icon]="icon"></app-button>
+      </span>
+    </div>
   </div>
 </div>
