@@ -1,4 +1,10 @@
-<button class="btn" [class]="buttonTypeStyle">
-  <i class="bi-alarm" [hidden]="false"></i>
+<button
+  class="btn me-5"
+  [class]="buttonTypeStyle"
+  [class.shadow]="shadow"
+  [disabled]="disable"
+>
+  <i [class]="icon" [hidden]="right"></i>
   {{ buttonType.length < 1 ? "default" : buttonType }}
+  <i [class]="icon" [hidden]="!right"></i>
 </button>
