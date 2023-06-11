@@ -10,3 +10,4 @@ export type Icon =
   | 'bi-broadcast-pin'
   | 'bi-reddit'
   | '';
+export type Size = 'btn-sm' | 'btn-lg';
