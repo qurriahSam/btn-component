@@ -3,6 +3,7 @@
   [class]="[buttonTypeStyle, size]"
   [class.shadow]="shadow"
   [disabled]="disable"
+  [style]="{ backgroundColor: color, border: color }"
 >
   <i [class]="icon" [hidden]="right"></i>
   {{ buttonType.length < 1 ? "default" : buttonType }}
