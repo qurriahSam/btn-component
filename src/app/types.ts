@@ -1,7 +1,11 @@
 export type ButtonTypeStyle =
   | 'btn-outline-primary'
   | 'btn-primary'
-  | 'btn-light';
+  | 'btn-light'
+  | 'btn-secondary'
+  | 'btn-success'
+  | 'btn-danger'
+  | 'btn-warning';
 
 export type Icon =
   | 'bi-brightness-high'
