@@ -7,7 +7,15 @@ import { Icon, Size } from './types';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  button = ['outline', 'primary', ''];
+  button = [
+    'outline',
+    'primary',
+    '',
+    'secondary',
+    'success',
+    'danger',
+    'warning',
+  ];
   icons: Icon[] = [
     'bi-brightness-high',
     'bi-alarm',
@@ -17,4 +25,5 @@ export class AppComponent {
     '',
   ];
   sizes: Size[] = ['btn-sm', 'btn-lg'];
+  colors = ['red', 'green', 'orange', 'brown', 'purple', 'black'];
 }
