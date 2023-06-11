@@ -1,5 +1,5 @@
 import { Component, Input, SimpleChanges } from '@angular/core';
-import { ButtonTypeStyle, Icon } from '../types';
+import { ButtonTypeStyle, Icon, Size } from '../types';
 @Component({
   selector: 'app-button',
   templateUrl: './button.component.html',
@@ -11,6 +11,7 @@ export class ButtonComponent {
   @Input() disable = false;
   @Input() icon: Icon = '';
   @Input() right = false;
+  @Input() size: Size | null = null;
 
   buttonTypeStyle: ButtonTypeStyle = 'btn-light';
   ngOnChanges(changes: SimpleChanges) {
