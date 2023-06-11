@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Icon } from './types';
+import { Icon, Size } from './types';
 
 @Component({
   selector: 'app-root',
@@ -16,4 +16,5 @@ export class AppComponent {
     'bi-reddit',
     '',
   ];
+  sizes: Size[] = ['btn-sm', 'btn-lg'];
 }
