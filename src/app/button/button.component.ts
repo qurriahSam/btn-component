@@ -12,6 +12,7 @@ export class ButtonComponent {
   @Input() icon: Icon = '';
   @Input() right = false;
   @Input() size: Size | null = null;
+  @Input() color: string | null = null;
 
   buttonTypeStyle: ButtonTypeStyle = 'btn-light';
   ngOnChanges(changes: SimpleChanges) {
@@ -26,9 +27,16 @@ export class ButtonComponent {
     switch (type) {
       case 'outline':
         return 'btn-outline-primary';
-
       case 'primary':
         return 'btn-primary';
+      case 'secondary':
+        return 'btn-secondary';
+      case 'success':
+        return 'btn-success';
+      case 'danger':
+        return 'btn-danger';
+      case 'warning':
+        return 'btn-warning';
 
       default:
         return 'btn-light';
