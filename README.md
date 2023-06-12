@@ -1,27 +1,78 @@
-# ButtonComponent
+<!-- Please update value in the {}  -->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+<h1 align="center">Reusable Component</h1>
 
-## Development server
+<div align="center">
+   Solution for reusable component from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align="center">
+  <h3>
+    <a href="https://btn-component.vercel.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/qurriahSam/btn-component">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-## Code scaffolding
+<!-- TABLE OF CONTENTS -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Table of Contents
 
-## Build
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<!-- OVERVIEW -->
 
-## Running unit tests
+## Overview
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The objective of this project entails the development of a reusable button component, It contains a selection of different colors, sizes, types, and icons. The aim is to create a solution that accommodates a range of user requirements, by offering an array of customization options.
 
-## Running end-to-end tests
+## Screenshot
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<p align=center><img src = "./src/assets/screenshot.png" width=700px></p>
 
-## Further help
+## Built With
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- [Angular](https://reactjs.org/)
+- [Bootstrap](https://vuejs.org/)
+
+## Features
+
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+
+## How To Use
+
+<!-- This is an example, please update according to your application -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```zsh
+# Clone this repository
+$ git clone https://github.com/qurriahSam/btn-component.git
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ ng serve
+```
+
+## Contact
+
+- LinkedIn [@Sam Kuria](https://www.linkedin.com/in/sam-kuria/)
