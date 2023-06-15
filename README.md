@@ -75,4 +75,4 @@ $ ng serve
 
 ## Contact
 
-- LinkedIn [@Sam Kuria](https://www.linkedin.com/in/sam-kuria/)
+- LinkedIn [Sam Kuria](https://www.linkedin.com/in/sam-kuria/)
